@@ -14,7 +14,7 @@ btn.addEventListener("click" ,function(){
         }, 15000);
         setTimeout(() => {
             yellow.style.backgroundColor = "rgb(85, 85, 16)"
-            green.style.backgroundColor = "green"
+            green.style.backgroundColor = "rgb(0, 255, 0)"
         }, 20000);
     }else if (count === false) {
         btn.innerHTML = "Start"
